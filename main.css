@@ -429,6 +429,7 @@ h1.navbar-brand {
 /* Width and height is set dynamically */
 .sl-content-wrapper {
     position: absolute;
+    height: 100vh !important;
 }
 
 .sl-content {
@@ -675,7 +676,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: rgba(15,155,0, 0.78);
     padding: 70px 0 40px;
 }
 
@@ -1079,6 +1080,10 @@ textarea.form-control {
 @media (min-width: 980px) and (max-width: 1150px) {
 
 /*about*/
+    .first{
+        height: 100vh !important;
+    }
+
     #about .welcome-block img {
         margin-bottom: 30px;
     }
@@ -1386,3 +1391,8 @@ textarea.form-control {
 {
     size:5%;
 }
+
+/*.reg-link{
+    color:red;
+    background-color: rgba(0,0,0,0.3);
+}*/
