@@ -429,6 +429,7 @@ h1.navbar-brand {
 /* Width and height is set dynamically */
 .sl-content-wrapper {
     position: absolute;
+    height: 100vh !important;
 }
 
 .sl-content {
@@ -1079,6 +1080,10 @@ textarea.form-control {
 @media (min-width: 980px) and (max-width: 1150px) {
 
 /*about*/
+    .first{
+        height: 100vh !important;
+    }
+
     #about .welcome-block img {
         margin-bottom: 30px;
     }
